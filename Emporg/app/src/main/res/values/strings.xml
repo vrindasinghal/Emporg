@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Emporg</string>
+    <string name="textview_splash">EMPORG</string>
+    <string name="textview_userType">Select a user type.</string>
+    <string name="textview_employer">Employer</string>
+    <string name="textview_employee">Employee</string>
+</resources>

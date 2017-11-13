@@ -87,7 +87,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/input_company_name"
+            android:id="@+id/input_employer_company_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -106,45 +106,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/input_company_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="25dp"
-            android:inputType="text"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:fontFamily="casual"
-            android:text="Company Address"
-            android:textColor="#000000"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/input_company_address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="25dp"
-            android:inputType="text"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:fontFamily="casual"
-            android:text="Designation"
-            android:textColor="#000000"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/input_employers_designation"
+            android:id="@+id/input_employer_company_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -199,6 +161,7 @@
             android:layout_marginTop="20dp">
 
             <Button
+                android:id="@+id/employer_sign_up_button"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_marginRight="10dp"
@@ -206,6 +169,7 @@
                 android:text="SIGN UP" />
 
             <Button
+                android:id="@+id/rCancel_button"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:background="#AED581"

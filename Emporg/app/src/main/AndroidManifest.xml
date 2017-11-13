@@ -23,6 +23,8 @@
 
         <activity android:name=".EmployerLoginActivity"></activity>
 
+        <activity android:name=".EmployeeMainActivity"></activity>
+
         <activity android:name=".EmployeeSignUpActivity"></activity>
 
         <activity android:name=".EmployerSignUpActivity"></activity>
